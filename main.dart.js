@@ -24376,8 +24376,8 @@ case 1:return B.lO
 case 2:return B.Cd}},
 JV(a,b,c){var s,r=null,q=A.aB9(c),p=t.E,o=A.b([],p)
 if(c===B.SB)B.b.J(o,A.b([B.Eu],p))
-else if(c===B.yL)B.b.J(o,A.b([B.Ez],p))
-else if(c===B.ew)B.b.J(o,A.b([B.EA],p))
+else if(c===B.yL)B.b.J(o,A.b([B.Ey],p))
+else if(c===B.ew)B.b.J(o,A.b([B.Ez],p))
 o.push(B.Ng)
 o.push(A.XX(A.lN(b,r,r,r,r,r,r)))
 p=A.yC(o,B.bk,B.bG,B.bY)
@@ -47662,7 +47662,7 @@ this.a.toString
 s.push(B.AT)
 s.push(B.AM)
 return s},
-a5R(a,b){return A.ib(null,B.EE,!0,b,null)},
+a5R(a,b){return A.ib(null,B.ED,!0,b,null)},
 a6m(a,b){var s,r,q,p,o,n,m,l=this,k=null,j=l.a.fx,i=A.cH(a,B.kR),h=i==null?k:i.e
 if(h==null)h=B.X
 if(j!==B.Sq)s=j===B.yF&&h===B.a4
@@ -79027,7 +79027,7 @@ A.aib.prototype={
 $1(a){return $.anQ.$1(a)},
 $S:481}
 A.HE.prototype={
-N(a){return new A.x5(B.IV,"WebRTC - [MAIONE MIK\u03a8]",A.rK(B.X,null),A.rK(B.a4,null),B.yF,!0,null)}}
+N(a){return new A.x5(B.IV,"Callibre \xa9 2022-2025, [MAIONE MIK\u03a8]",A.rK(B.X,null),A.rK(B.a4,null),B.yF,!0,null)}}
 A.xh.prototype={
 ag(){var s=A.aCo(20),r=t.N,q=A.cq(r),p=t.s,o=t.K
 o=A.ae(["iceServers",A.b([A.ae(["urls",A.b(["stun:94.177.160.139:3478"],p)],r,o),A.ae(["urls",A.b(["turn:94.177.160.139:3478?transport=udp","turn:94.177.160.139:3478?transport=tcp"],p),"username","coturn","credential","coturn"],r,o)],t.Mq)],r,t.JD)
@@ -79213,22 +79213,22 @@ $0(){this.a.Qw()},
 $S:0}
 A.acX.prototype={
 $2(a,b){var s,r,q,p=t.E,o=A.b([],p),n=this.a,m=n.w
-if(m.a.a.length>2)B.b.J(o,A.b([A.ib(B.IF,B.ED,!1,new A.acN(n,a),"Share room link")],p))
+if(m.a.a.length>2)B.b.J(o,A.b([A.ib(B.IF,B.EC,!1,new A.acN(n,a),"Share room link")],p))
 if(!n.x)B.b.J(o,A.b([A.ib(B.jw,B.EI,!1,new A.acO(n),"Open camera")],p))
 if(m.a.a.length>2){m=A.b([],p)
-if(n.y)B.b.J(m,A.b([A.ib(B.to,B.EG,!1,new A.acP(n),"Retry call")],p))
+if(n.y)B.b.J(m,A.b([A.ib(B.to,B.EF,!1,new A.acP(n),"Retry call")],p))
 if(n.x&&n.d.at!=null){s=n.d
 r=s.b!=null
 q=r?"Change screen sharing":"Start screen sharing"
 r=r?B.IH:B.jx
-q=A.b([A.ib(r,B.EB,!1,new A.acQ(n),q)],p)
+q=A.b([A.ib(r,B.EA,!1,new A.acQ(n),q)],p)
 if(s.b!=null)B.b.J(q,A.b([A.ib(B.jw,B.Ev,!1,new A.acR(n),"Stop screen sharing")],p))
-if(b.b!=null&&b.gaiV()>1)B.b.J(q,A.b([A.ib(B.jx,B.Ew,!1,new A.acS(n),"Switch camera")],p))
+if(b.b!=null&&b.gaiV()>1)B.b.J(q,A.b([A.ib(B.jx,B.EG,!1,new A.acS(n),"Switch camera")],p))
 p=n.FK()?"Un-mute mic":"Mute mic"
 s=n.FK()?B.jw:B.jx
-r=n.FK()?B.EC:B.EF
+r=n.FK()?B.EB:B.EE
 q.push(A.ib(s,r,!1,new A.acT(n),p))
-q.push(A.ib(B.tp,B.Ey,!1,new A.acU(n),"Hangup"))
+q.push(A.ib(B.tp,B.Ex,!1,new A.acU(n),"Hangup"))
 q.push(A.ib(B.tp,B.EH,!1,new A.acV(n),"Exit"))
 B.b.J(m,q)}else B.b.J(m,A.b([A.ib(B.to,B.Et,!1,new A.acW(n),"Start call")],p))
 B.b.J(o,m)}return A.aqB(o,15)},
@@ -79362,7 +79362,7 @@ case 5:p=7
 s=10
 return A.y(A.ZN("videoinput"),$async$wJ)
 case 10:m=b
-k=Math.min(J.c4(m),1)
+k=J.c4(m)
 q=k
 s=1
 break
@@ -79871,7 +79871,7 @@ A.KU.prototype={
 N(a){var s,r,q=this,p=null,o=t.w,n=A.bz(a,p,o).w
 o=A.bz(a,p,o).w
 s=t.E
-r=A.hf(p,A.yC(A.b([B.So,new A.w4(1,B.DZ,A.aBs(q.r,A.aoe(p,p,p,p,p,p,p,p,!0,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,A.ajC(p,B.Ex,p,new A.a8u(q),p,"Generate new Room ID"),p,p,p,p)),p)],s),B.bk,B.te,B.bY),B.w,p,p,p,p,B.iP,p,p)
+r=A.hf(p,A.yC(A.b([B.So,new A.w4(1,B.DZ,A.aBs(q.r,A.aoe(p,p,p,p,p,p,p,p,!0,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,A.ajC(p,B.Ew,p,new A.a8u(q),p,"Generate new Room ID"),p,p,p,p)),p)],s),B.bk,B.te,B.bY),B.w,p,p,p,p,B.iP,p,p)
 return A.hf(p,A.V3(A.b([r,A.XX(n.a.a>o.a.b?A.yC(q.Jj(),B.bk,B.bG,B.bY):A.V3(q.Jj(),B.bk,B.bG,B.bY))],s),B.bk,B.bG,B.bY),B.w,p,p,p,p,B.iP,p,p)},
 Jj(){var s,r,q,p,o=this,n=A.b([],t.E)
 if(o.c)n.push(new A.A3(o.f,!1,o.w.b==null,null))
@@ -83361,30 +83361,30 @@ B.Eb=new A.cG(57638,!1)
 B.Et=new A.da(B.Eb,null,null,null)
 B.Ee=new A.cG(57846,!1)
 B.Eu=new A.da(B.Ee,B.j,null,null)
-B.El=new A.cG(58923,!1)
-B.Ew=new A.da(B.El,null,null,null)
-B.Eo=new A.cG(62443,!1)
-B.Ev=new A.da(B.Eo,null,null,null)
+B.En=new A.cG(62443,!1)
+B.Ev=new A.da(B.En,null,null,null)
 B.Eq=new A.cG(984586,!1)
-B.Ex=new A.da(B.Eq,null,null,null)
+B.Ew=new A.da(B.Eq,null,null,null)
 B.Ec=new A.cG(57639,!1)
-B.Ey=new A.da(B.Ec,null,null,null)
+B.Ex=new A.da(B.Ec,null,null,null)
 B.Ed=new A.cG(57775,!1)
-B.EA=new A.da(B.Ed,B.j,null,null)
+B.Ez=new A.da(B.Ed,B.j,null,null)
 B.Eg=new A.cG(58173,!1)
-B.Ez=new A.da(B.Eg,B.j,null,null)
+B.Ey=new A.da(B.Eg,B.j,null,null)
 B.Eh=new A.cG(58341,!1)
-B.EC=new A.da(B.Eh,null,null,null)
-B.En=new A.cG(62276,!0)
-B.EB=new A.da(B.En,null,null,null)
+B.EB=new A.da(B.Eh,null,null,null)
+B.Em=new A.cG(62276,!0)
+B.EA=new A.da(B.Em,null,null,null)
 B.Ej=new A.cG(58727,!1)
-B.EE=new A.da(B.Ej,null,null,null)
+B.ED=new A.da(B.Ej,null,null,null)
 B.Ek=new A.cG(58771,!1)
-B.ED=new A.da(B.Ek,null,null,null)
-B.Em=new A.cG(61899,!1)
-B.EF=new A.da(B.Em,null,null,null)
+B.EC=new A.da(B.Ek,null,null,null)
+B.El=new A.cG(61899,!1)
+B.EE=new A.da(B.El,null,null,null)
 B.Ea=new A.cG(57421,!1)
-B.EG=new A.da(B.Ea,null,null,null)
+B.EF=new A.da(B.Ea,null,null,null)
+B.Eo=new A.cG(62481,!1)
+B.EG=new A.da(B.Eo,null,null,null)
 B.Ef=new A.cG(57923,!1)
 B.EH=new A.da(B.Ef,null,null,null)
 B.Ep=new A.cG(62603,!1)
@@ -85345,7 +85345,7 @@ B.QT=new A.k(!0,B.o,null,"Roboto",B.M,null,null,null,null,null,null,null,null,nu
 B.R2=new A.k(!0,B.o,null,"Roboto",B.M,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackHelsinki labelSmall",null,null,null,null)
 B.Sn=new A.d2(B.RQ,B.OZ,B.PY,B.QS,B.R4,B.Op,B.Px,B.Ot,B.QC,B.Rh,B.Q7,B.Rj,B.Ru,B.QT,B.R2)
 B.So=new A.ol("Join room ID: ",null,null,null,null,null,null,null,null)
-B.Sp=new A.ol("WebRTC - [MAIONE MIK\u03a8]",null,null,null,null,null,null,null,null)
+B.Sp=new A.ol("Callibre \xa9 2022-2025, [MAIONE MIK\u03a8]",null,null,null,null,null,null,null,null)
 B.yF=new A.Kw(0,"system")
 B.Sq=new A.Kw(2,"dark")
 B.Jz=new A.i(0.05,0)
